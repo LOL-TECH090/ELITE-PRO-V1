@@ -4,13 +4,13 @@ const chalk = require('chalk');
 
 // Contact details
 global.sessionid = process.env.SESSION_ID || '';
-global.ytname = process.env.YT_NAME || "YT: @EliteProTech";
-global.socialm = process.env.SOCIAL_M || "GitHub: EliteProTech";
-global.location = process.env.LOCATION || "Nigeria, Port Harcourt";
+global.ytname = process.env.YT_NAME || "YT: @Finbotz";
+global.socialm = process.env.SOCIAL_M || "GitHub: LOL-TECH090";
+global.location = process.env.LOCATION || "Germany:Calbe Salle";
 
 // Creator details
-global.ownernumber = process.env.OWNER_NUMBER || '2348109263390';
-global.ownername = process.env.OWNER_NAME || 'ElitePro';
+global.ownernumber = process.env.OWNER_NUMBER || '4917681346302';
+global.ownername = process.env.OWNER_NAME || 'LOLMANN_090;
 global.botname = process.env.BOT_NAME || 'ELITE-PRO-V1';
 
 // Default settings 
@@ -25,7 +25,7 @@ global.anti92 = process.env.ANTI_92 === 'true';
 global.autoswview = process.env.AUTO_SW_VIEW !== 'false'; // default true
 global.welcome = process.env.WELCOME !== 'false'; // default true
 global.autoreact = process.env.AUTO_REACT === 'true';
-global.autolikestatus = process.env.AUTO_LIKE_STATUS === 'true';
+global.autolikestatus = process.env.AUTO_LIKE_STATUS === 'false';
 
 // Thumbnail profile picture
 global.elitepropp = process.env.ELITE_PRO_PP || 'https://i.ibb.co/jk0ynvbn/7a8c4b5b617fa11a1e9a61190f427546.jpg';
@@ -35,11 +35,11 @@ global.themeemoji = process.env.THEME_EMOJI || '👨‍💻';
 
 // Sticker details
 global.packname = process.env.PACKNAME || 'Sticker By';
-global.author = process.env.AUTHOR || 'ELITEPRO\n\nContact: +2348109263390';
+global.author = process.env.AUTHOR || 'ELITEPRO\n\nContact: +4917681346302';
 // Default settings 2
 global.typemenu = process.env.TYPE_MENU || 'v2';
-global.wm = process.env.WM || "Youtube @EliteProTech";
-global.link = process.env.LINK || 'https://whatsapp.com/channel/0029VaXaqHII1rcmdDBBsd3g';
+global.wm = process.env.WM || "Youtube @Finbotz";
+global.link = process.env.LINK || 'https://whatsapp.com/channel/0029VbB21GR11ulYiiYih43M';
 
 // Text bug
 global.xbugtex = {
